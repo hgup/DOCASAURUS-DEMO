@@ -15,7 +15,7 @@ const config = {
 
   presets: [
     [
-      'classic',
+      '@docasaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       {
         docs: {
