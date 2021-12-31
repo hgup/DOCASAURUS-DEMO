@@ -1,0 +1,57 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+/* You can override the default Infima variables here. */
+:root {
+  font-family: "Inter", sans-serif;
+  --doc-sidebar-width: 300px !important;
+  --ifm-color-primary: #519ABA;
+  --ifm-color-primary-dark: #177891;
+  --ifm-color-primary-darker: #157189;
+  --ifm-color-primary-darkest: #B07767;
+  --ifm-color-primary-light: #1b92b1;
+  --ifm-color-primary-lighter: #1d99b9;
+  --ifm-color-primary-lightest: #83b9c8;
+}
+
+:root .navbar__title {
+  color: #2e3440;
+  margin-left: 4px;
+  font-size: 1.75rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "JetBrains Mono", sans-serif;
+  color: var(--ifm-color-secondary-contrast-foreground);
+}
+
+.hero__title {
+  color: white;
+}
+
+.prism-code {
+  background-color: #1e222a !important;
+}
+
+.navbar__item.navbar__link[href*="github"] {
+  padding: 0 1.5rem 0 0;
+  display: flex;
+  font-size: 0;
+}
+
+.navbar__item.navbar__link[href*="github"]:before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("/img/brand-github.svg");
+  background-repeat: no-repeat;
+}
